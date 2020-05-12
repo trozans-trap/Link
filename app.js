@@ -13,7 +13,7 @@ mongoose.connect(db, {useUnifiedTopology: true, useNewUrlParser: true, useFindAn
  .then(()=> console.log('MongoDb Connected...'))
  .catch(err=> console.log(err));
 
-app.use('/link',require('./routes/api'));
+app.use('/',require('./routes/api'));
 
 
 

@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var ServerSchema = new mongoose.Schema({
-    UrlCode: {
+    urlCode: {
         type: String,
     },
     longUrl: {
